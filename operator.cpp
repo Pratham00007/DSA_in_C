@@ -10,4 +10,17 @@ using namespace std;
 
     cout <<( 3<5 )<< endl ; // return 1
     // true = 1 false = 0
+
+    // unary operator
+    // post increment a++
+    //  pre incrment ++a
+    // simlarly decrement
+
+    //  !! it will change the value of variable  !!
+
+    int i=10;
+    int j= i++;
+    cout << j << endl;
+    cout << i <<endl;
+
  }
